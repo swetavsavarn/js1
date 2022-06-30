@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div
+            {
+                background-color: white;
+                width:  300px;
+                border: 20px solid pink;
+                padding: 100px;
+                margin: 100px;
+                position: absolute;right: 270px;
+            }
+        </style>
+        
+        
+        
+    </head>
+    <head>
+        <title>first assingement</title>
+    </head>
+    <body style="background-image:url('download.jpg'); background-repeat:no-repeat; " >
+        <form onsubmit="onsubmi(event)">
+            <div>
+                <h1 style="color:orange ;text-align: center;">Book a call</h1>
+                <br>
+                
+             
+                <label for="fname">First Name</label>
+                <br>
+                <input type="text" name="text_box_for_first_name" id="fname">
+                <br>
+                <label for="email">email</label>
+                <br>
+                <input type="text" name="text_box_for_email" id="email">
+                <br>
+                <label for="date">date</label>
+                <br>
+                <input type="date" name="text_box_for_date" id="date">
+                <br>
+                <label for="submit">submit</label>
+                <br>
+                <input type="submit" name="text_box_for_submit" id="submit">
+                
+
+
+
+            </div>
+        </form>
+        <script>
+            function onsubmi(event)
+            {
+            
+                event.preventDefault();
+                console.log(event.target.text_box_for_first_name.value)
+            }
+        </script>
+            
+        
+
+    
+        
+    </body>
+</html>
