@@ -7,3 +7,5 @@ git checkout -b branch name
 // to push the branch to the git hub
 
 git push --set-upstream origin branch name
+
+//end
